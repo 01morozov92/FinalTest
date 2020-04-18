@@ -11,7 +11,8 @@ public class Testec {
     @Before()
 
     public void tesTec () {
-        Configuration.startMaximized = true;
+        Configuration.browser = "chrome";
+        Configuration.browserSize = "1000x1000";
         open("https://cucumber.netlify.app/");
     }
 }

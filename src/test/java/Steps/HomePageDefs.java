@@ -15,5 +15,10 @@ public class HomePageDefs {
     public void clickButtonLogin(String arg0) {
         homePage.clickButtonLogin(arg0);
     }
+
+    @Then("click {string} button log")
+    public void clickButtonLog(String arg0) {
+        homePage.clickButtonlog(arg0);
+    }
 }
 

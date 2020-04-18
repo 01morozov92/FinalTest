@@ -11,6 +11,7 @@ public class Testec {
     @Before()
 
     public void tesTec () {
+        Configuration.timeout = 10000;
         Configuration.browser = "chrome";
         Configuration.browserSize = "1000x1000";
         open("https://cucumber.netlify.app/");
